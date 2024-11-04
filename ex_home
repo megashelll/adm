@@ -1,0 +1,156 @@
+
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/mega/assets/css/leasing.css">
+master
+<div class="maste" style="width:100%; z-index:1; position:relative ;">
+	<div class="mega_users_account container d-flex flex-wrap justify-content-between  align-items-start ">
+		<div class="mua_sidebar">
+			
+			<nav class="m-0">
+				<ul class="master_navs">
+
+					<li class="master_item_nav have_child_menu">
+						<div class="nav_inner_div navid_with_icon">
+							<img src="<?php echo get_template_directory_uri(); ?>/mega/inc/pages/account/branch/images/new_user.png" class="navid_wico_icon">
+							<span class="navid_no_link">کاربران</span>
+						</div>
+						<ul class="sub_maitem_menu off_menu">
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=new_leasing_user">تعریف کارمند لیزینگ</a></li>
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=new_branch_user">ایجاد نمایندگی</a></li>
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=new_customer_user">ساخت حساب مشتری</a></li>
+							<li class="sub_maim_item"><hr class="m-0"></li>
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=see_employee">مشاهده همه کارمندان</a></li>
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=see_branches">مشاهده همه نمایندگی ها</a></li>
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=see_customers">مشاهده همه مشتریان</a></li>
+						</ul>
+					</li>
+					<li class="master_item_nav have_child_menu">
+						<div class="nav_inner_div navid_with_icon">
+							<img src="<?php echo get_template_directory_uri(); ?>/mega/inc/pages/account/branch/images/new_user.png" class="navid_wico_icon">
+							<span class="navid_no_link">سازمان</span>
+						</div>
+						<ul class="sub_maitem_menu off_menu">
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=org_dashboard">تعریف سازمان جدید</a></li>
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=new_organization">تعریف سازمان جدید</a></li>
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=all_organization">سازمان ها</a></li>
+						</ul>
+					</li>
+					<li class="master_item_nav have_child_menu">
+						<div class="nav_inner_div navid_with_icon">
+							<img src="<?php echo get_template_directory_uri(); ?>/mega/assets/images/menu/invoice.png" class="navid_wico_icon">
+							<span class="navid_no_link">فاکتور ها</span>
+						</div>
+						<ul class="sub_maitem_menu off_menu">
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=search_invoice">جستجوی فاکتور</a></li>
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=search_customers">جستجو مشتری</a></li>
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=approved_invoice">فاکتور های تایید شده</a></li>
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=rejected_invoice">فاکتور های مردود شده</a></li>
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=delivered_invoice">فاکتور های تحول شده</a></li>
+						</ul>
+					</li>
+					<li class="master_item_nav have_child_menu">
+						<div class="nav_inner_div navid_with_icon">
+							<img src="<?php echo get_template_directory_uri(); ?>/mega/inc/pages/account/branch/images/branches.png" class="navid_wico_icon">
+							<span class="navid_no_link">نمایندگی ها</span>
+						</div>
+						<ul class="sub_maitem_menu off_menu">
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=search_branch">جستجوی نمایندگی</a></li>
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=all_customers">همه ی مششترریان</a></li>
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=quik_edit_branch">ویرایش سریع نماندگی</a></li>
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=branch_to_seller">تبدیل نمایندگی به فروشنده</a></li>
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=remove_branch">حذف نماینگی</a></li>
+						</ul>
+					</li>
+
+					<li class="master_item_nav have_child_menu">
+						<div class="nav_inner_div navid_with_icon">
+							<img src="<?php echo get_template_directory_uri(); ?>/mega/inc/pages/account/branch/images/branches.png" class="navid_wico_icon">
+							<span class="navid_no_link">فروشنده ها</span>
+						</div>
+						<ul class="sub_maitem_menu off_menu">
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=search_sellers">جستجوی فروشنده</a></li>
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=quik_edit_sellers">ویرایش سریع فروشنده</a></li>
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=saller_to_branch">تبدیل فروشنده به نمایندگی</a></li>
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=remove_sellers">حذف فروشنده</a></li>
+						</ul>
+					</li>
+
+					<li class="master_item_nav have_child_menu">
+						<div class="nav_inner_div navid_with_icon">
+							<img src="<?php echo get_template_directory_uri(); ?>/mega/inc/pages/account/branch/images/branches.png" class="navid_wico_icon">
+							<span class="navid_no_link">طرح ها</span>
+						</div>
+						<ul class="sub_maitem_menu off_menu">
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=all_plans">لیست طرح ها</a></li>
+							<li class="sub_maim_item"><a class="sumaim_link" href="<?php echo get_site_url();?>/my-account/?admin=plans_Performance">عملکرد طرح ها</a></li>
+							
+						</ul>
+					</li>
+
+
+
+					<li class="master_item_nav">
+						<div class="nav_inner_div">
+
+							<a class="navid_link" href="">ثبت سفارش برای مشتری</a> 
+						</div>
+					</li>
+					<li class="master_item_nav">
+						<div class="nav_inner_div">
+							<a class="navid_link">ثبت مشتری اقساطی</a>
+						</div>
+					</li>
+
+					<li class="master_item_nav">
+						<div class="nav_inner_div">
+							<a class="navid_link"></a>
+						</div>
+					</li>
+
+					<li class="master_item_nav">
+						<div class="nav_inner_div">
+							<a class="navid_link"></a>
+						</div>
+					</li>
+					
+				</ul>
+			</nav>
+		</div>
+		<div class="mua_content">
+			<?php 
+				if (isset($_GET)){
+					if (isset($_GET['admin'])){
+						if ($_GET['admin'] == 'new_leasing_user'){
+							require_once('pages/my_leasing/new_employee.php');
+						}
+						elseif($_GET['admin'] == 'new_branch_user'){
+							require_once('pages/my_branch/new_branch_user.php');
+						}
+						elseif($_GET['admin'] == 'see_employee'){
+							require_once('pages/my_leasing/see_employee.php');
+						}
+						elseif($_GET['admin'] == 'plans_Performance'){
+							require_once('pages/my_plans/plans_performance.php');
+						}
+						elseif($_GET['admin'] == 'search_invoice'){
+							require_once('pages/my_leasing/search_invoice.php');
+						}	
+						elseif($_GET['admin'] == 'org_dashboard'){
+							require_once('pages/my_organization/dashboard.php');
+						}
+						elseif($_GET['admin'] == 'new_organization'){
+							require_once('pages/my_organization/new_organization.php');
+						}
+						elseif($_GET['admin'] == 'all_organization'){
+							require_once('pages/my_organization/all_organization.php');
+						}			
+						else{
+							require_once('pages/dashboard.php');
+						}
+					}
+				}
+			?>
+		</div>	
+	</div>
+
+	
+</div>
